@@ -5,6 +5,11 @@ const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     {
+      path: '/',
+      redirect: '/issue-certificate', // Redirect root URL to /default
+    },
+   
+    {
       path: "/",
       name: "home",
       component: HomeView,
