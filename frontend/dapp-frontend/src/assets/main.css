@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap');
+
+html,
+body {
+  background-color: #f1f1f1 !important;
+  font-family: "Overpass", serif;
+}
+
+.nav-link.active {
+  color: #531CB3 !important;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.nav-link:hover {
+  color: #531CB3 !important;
+}
+
+.footer p {
+  margin: 0 !important;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.extra-margin {
+  margin-bottom: 128px !important;
+}
